@@ -1,8 +1,17 @@
 aid: tenoneten
 name: TenOneTen
-description: 'TenOneTen is a company surfaced as a portfolio company of foundry-group and added to the
-  API Evangelist network as a stub for enrichment. Sector: venture-capital. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  TenOneTen Ventures is an early-stage venture capital firm based in Los Angeles,
+  founded in 2011 by repeat software founders David Waxman and Gil Elbaz (later
+  joined by managing partner Minnie Ingersoll). The firm backs engineers-turned-
+  entrepreneurs building B2B software, data infrastructure, artificial intelligence,
+  and technical products that reimagine essential industries such as healthcare,
+  logistics, real estate, and manufacturing. TenOneTen typically leads pre-seed,
+  seed, and Series A rounds with checks from roughly $500K to $5M, invests about
+  ten times a year with a ~90% B2B focus, and has backed companies including
+  Procore, Pluto TV, Scopely, and Crexi. The firm also produces the LA Venture
+  podcast covering the Los Angeles startup and investor community. This profile is
+  maintained in the API Evangelist network as a venture-capital company record.
 url: https://raw.githubusercontent.com/api-evangelist/tenoneten/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +19,31 @@ x-backed-by:
 - foundry-group
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Venture Capital
+- Early Stage
+- Seed
+- Series A
+- B2B Software
+- Data Infrastructure
+- Artificial Intelligence
+- Los Angeles
+image: https://cdn.prod.website-files.com/630c90268976ef1d95a1cc7c/6387d9943e2c0214271f7379_TenOneTen%20URL%20image.png
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +52,27 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.tenoneten.net
+  url: https://www.tenoneten.com
+- type: Blog
+  url: https://www.tenoneten.com/latest
+- type: Portfolio
+  url: https://www.tenoneten.com/portfolio
+- type: Team
+  url: https://www.tenoneten.com/team
+- type: Podcast
+  url: https://www.tenoneten.com/podcast
+- type: Jobs
+  url: https://www.tenoneten.com/jobs
+- type: LinkedIn
+  url: https://www.linkedin.com/company/tenoneten-ventures
+- type: Twitter
+  url: https://twitter.com/tenone10
+- type: Crunchbase
+  url: https://www.crunchbase.com/organization/tenoneten-ventures
+- type: DomainSecurity
+  url: security/tenoneten-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
